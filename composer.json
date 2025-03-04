@@ -1,5 +1,5 @@
 {
-  "name": "bolt/users",
+  "name": "bolt-oss/users",
   "description": "Bolt 4 Users Extension",
   "type": "bolt-extension",
   "license": "MIT",
@@ -18,6 +18,9 @@
     "symplify/easy-coding-standard": "^8.1",
     "phpstan/phpstan": "^0.12.32",
     "phpstan/phpstan-symfony": "^0.12.6"
+  },
+  "replace": {
+    "bolt/users": "*"
   },
   "autoload": {
     "psr-4": {
